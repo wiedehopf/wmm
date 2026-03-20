@@ -84,7 +84,7 @@ int geomag_destroy() {
 int geomag_init()
 {
 
-    // hard code WMM2020, this can easily enough be replaced
+    // hard code WMM2025, this can easily enough be replaced
     // i don't like having to read a file, better to have the data in the source code.
     // when replacing this, make sure to add \n\ at the end of each line to the text from the WMM.COF
     // also make sure the indentation stays as it is ... some code depends on that.
